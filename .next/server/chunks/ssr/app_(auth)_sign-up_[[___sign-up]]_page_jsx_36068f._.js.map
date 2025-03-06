@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/mudas/Desktop/DESKTOP%20STUFF/Mudassir%27s%20Courses/welth/app/%28auth%29/sign-up/%5B%5B...sign-up%5D%5D/page.jsx"],"sourcesContent":["// YAHAN PAR HUMNE CLERK KE SIGN IN COMPONENT KO USE KIYA HAI MATLAB JAB BH USER /SIGN-IN PAR JAYEGA TOH USSE SIGN UP PAGE DIKHEGA\r\n// AUR ISS PAGE KO BANANE K LYE KUCH STEPS FOLLOW KIYE GAYE HAIN\r\n// 1- (auth) folder banaya sabse pehle\r\n// 2- Sign-up folder banaya aur usko (auth) walay folder k ander dal dya\r\n// 3- Sign-up folder k ander [[..sign-up]] folder banaya\r\n// 4- Ab is folder k ander page.jsx file banai\r\n\r\n// ya simply type sign-up/[[...sign-up]]/page.jsx\r\n\r\n\r\nimport { SignUp } from '@clerk/nextjs'\r\nimport React from 'react'\r\n\r\nconst Page = () => {\r\n  return (\r\n    <SignUp/>\r\n  )\r\n}\r\n\r\nexport default Page\r\n"],"names":[],"mappings":"AAAA,kIAAkI;AAClI,gEAAgE;AAChE,sCAAsC;AACtC,wEAAwE;AACxE,wDAAwD;AACxD,8CAA8C;AAE9C,iDAAiD;;;;;AAIjD;AADA;;;;AAGA,MAAM,OAAO;IACX,qBACE,8OAAC,sLAAA,CAAA,SAAM;;;;;AAEX;uCAEe"}},
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
